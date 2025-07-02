@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend
+  name: demo-frontend       # 이름 변경
   labels:
     app: frontend
 spec:
